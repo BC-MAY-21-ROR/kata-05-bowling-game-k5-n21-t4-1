@@ -1,3 +1,6 @@
 # frozen_string_literal: true
 
-require 'src/bowlingGame' # this will call our main code source
+require_relative 'src/roll'
+
+gamer = Roll.new
+gamer.play_roll
